@@ -8,6 +8,7 @@ import Page from './components/Page';
 import PageHeader from './components/PageHeader';
 import { ThemeProvider } from './components/ThemeProvider';
 import { SidebarInset, SidebarProvider } from './components/ui/sidebar';
+import DashboardTable from './components/DashboardTable';
 
 function App() {
   return (
@@ -61,6 +62,8 @@ function App() {
                   </div>
                 </DashboardCard>
               </div>
+
+              <DashboardTable />
             </Page>
           </main>
         </SidebarInset>
