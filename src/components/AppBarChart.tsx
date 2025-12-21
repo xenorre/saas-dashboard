@@ -73,7 +73,10 @@ function AppBarChart() {
           />
         )}
 
-        <ChartTooltip content={<ChartTooltipContent />} />
+        <ChartTooltip
+          cursor={false}
+          content={<ChartTooltipContent />}
+        />
 
         {!isMobile && (
           <ChartLegend
