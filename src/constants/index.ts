@@ -1,6 +1,7 @@
 /**
  * Assets
  */
+import { Vendor } from '@/components/Columns';
 import {
   BookOpenIcon,
   ChartPieIcon,
@@ -21,7 +22,6 @@ import {
 /**
  * Types
  */
-import type { Vendor } from '@/components/Columns';
 
 export const VENDOR_BREAKDOWN = [
   { month: 'Jan 2025', asia: 35, us: 20, eu: 30 },
