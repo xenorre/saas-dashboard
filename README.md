@@ -5,7 +5,7 @@
 
   <p>
     <a href="#tech-stack">Tech Stack</a> •
-    <a href="#project-structure">Structure</a> •
+    <a href="#project-structure">Structure</a>
   </p>
 </div>
 
